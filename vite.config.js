@@ -10,7 +10,7 @@ export default defineConfig({
 			"/api": {
 				target: "https://backend-socketchat.onrender.com",
 				//target: "http://localhost:5000",
-				//secure: false, // Agrega esta línea
+				secure: false, // Agrega esta línea
                 changeOrigin: true,
 			},
 		},
